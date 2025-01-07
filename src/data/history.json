@@ -1,0 +1,18 @@
+[
+    {
+      "role": "Frontend Developer intern",
+      "organisation": "Brevia Studio",
+      "startDate": "Dec, 2024",
+      "endDate": "Current",
+      "experiences": ["worked on Dynamic and responsive Websites"],
+      "imageSrc": "brevia.jpeg"
+    },
+    {
+      "role": "Full-Stack Developer Intern",
+      "organisation": "Besant technology",
+      "startDate": "Jun, 2024",
+      "endDate": "Nov, 2024",
+      "experiences": ["Worked on a project named library management system"],
+      "imageSrc": "besant.png"
+    }
+  ]
