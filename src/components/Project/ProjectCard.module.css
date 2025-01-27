@@ -1,3 +1,4 @@
+
 @import "../../vars.css";
 
 .container {
@@ -58,4 +59,5 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
+
 }
