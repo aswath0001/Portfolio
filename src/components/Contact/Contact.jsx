@@ -11,13 +11,11 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-    emailjs
-    .sendForm(
-      process.env.REACT_APP_EMAILJS_SERVICE_ID, // Service ID
-      process.env.REACT_APP_EMAILJS_TEMPLATE_ID, // Template ID
+    emailjs.sendForm(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID, // Service ID
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID, // Template ID
       form.current,
-      process.env.REACT_APP_EMAILJS_PUBLIC_KEY // Public Key
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY // Public Key
     )
     .then(
       () => {

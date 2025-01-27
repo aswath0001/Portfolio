@@ -61,3 +61,6 @@
   padding: 1px 22px;
 
 }
+.link:hover {
+  background-color: var(--color-dark);
+}
