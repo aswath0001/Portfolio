@@ -41,6 +41,9 @@
     width: 120px;
     height: 120px;
 }
+.skillImageContainer:hover{
+    background-color: var(--color-dark);
+}
 .skillImageContainer img{
     width: 75px;
 }
