@@ -4,7 +4,7 @@ import{ About } from './components/About/About.jsx';
 import { Navbar } from './components/Navbar/Navbar.jsx';
 import { Experience } from './components/Experience/Experience.jsx';
 import { Education } from './components/Education/Education.jsx';
-import { Project } from './components/Project/project.jsx';
+import { Project } from './components/Project/Project.jsx';
 import { Contact } from "./components/Contact/Contact.jsx";
 import styles from './App.module.css';  
 function App() {
