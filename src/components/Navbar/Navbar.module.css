@@ -1,0 +1,71 @@
+.Navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 61px;
+    z-index: 2;
+    margin: 0 10%;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.menu {
+    display: flex; /* Horizontal display on larger screens */
+}
+
+.menuItems {
+    display: flex; /* Display menu items in row */
+    gap: 47px;
+    list-style: none;
+}
+
+.menuItems a {
+    font-size: 25px;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 830px) {
+    .Navbar {
+        flex-direction: column;  /* Stack navbar elements vertically on small screens */
+        align-items: flex-start;
+    }
+
+    .menuBtn {
+        display: block;  /* Display the menu button on mobile */
+        cursor: pointer;
+        z-index: 4;  /* Ensure it is clickable */
+    }
+
+    .menuItems {
+        display: none;  /* Hide menu items by default */
+        flex-direction: column;  /* Stack menu items vertically */
+        align-items: center;
+        gap: 13px;
+        border-radius: 10px;
+        background: rgb(25, 55, 109);
+        background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
+        padding: 74px 33px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .menuOpen {
+        display: flex;  /* Show menu items when `menuOpen` state is true */
+        z-index: 1;
+    }
+}
+
+/* Hide the menu button on desktop */
+@media screen and (min-width: 831px) {
+    .menuBtn {
+        display: none;  /* Hide the menu button on desktop */
+    }
+}
+

@@ -1,0 +1,181 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; /* Center vertically */
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 10px;
+}
+
+.text h3 {
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Center the links */
+  justify-content: center; /* Center vertically */
+  list-style: none;
+  gap: 26px;
+  min-height: 300px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+/* Form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;  /* Smaller form width */
+  margin: 0 auto;
+  background-image: linear-gradient(
+        90deg,
+        rgba(34, 34, 34, 0) 100%,
+        rgba(164, 215, 232, 0.42) 100%
+    );
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Explicit color for form labels */
+.form label {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: var(--color-text);
+}
+
+/* Input and textarea styling */
+.input,
+.textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: var(--color-primary);
+  outline: none;
+}
+
+/* Adjust textarea for 3 lines */
+.textarea {
+  height: 60px; /* Reduced height to show 3 lines */
+  resize: none; /* Disable resizing */
+}
+
+/* Button styling */
+.submit {
+  background-color: var(--color-primary);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit:hover {
+  background-color: var(--color-dark);
+}
+
+/* Success and error message styles */
+/* Styling for status message */
+.status {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;  /* Default green for success */
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeOut 3s forwards;
+}
+
+.status.error {
+  background-color: #f44336;  /* Red background for failure */
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+
+.status.error {
+  background-color: #f44336;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    align-items: center;
+    min-height: auto;
+  }
+}
