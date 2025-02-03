@@ -179,4 +179,11 @@
     align-items: center;
     min-height: auto;
   }
+
+  /* Increase input and textarea size for mobile */
+  .input,
+  .textarea {
+    width: 90%; /* 90% width for mobile screens */
+  }
 }
+
