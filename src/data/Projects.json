@@ -2,19 +2,20 @@
 [
     {
       "id":1,
-      "title": "Project A",
-      "imageSrc": "project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "source": "https://www.github.com"
+      "title": "CosmoVision",
+      "imageSrc": "COSMOVISION.png",
+      "description": "CosmoVision is a project that fetches and displays daily space images from NASA's APOD API online.",
+      "skills": ["React"],
+      "source": "https://github.com/aswath0001/CosmoVision",
+      "demo": "https://cosmovision0001.netlify.app/"
     },
     {
       "id":2,
-      "title": "Project B",
+      "title": "TripTix",
       "imageSrc": "project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "source": "https://www.github.com"
+      "description": "TripTix is a platform that manages bus ticket bookings with a custom Java backend and SQL.",
+      "skills": ["java","SQL"],
+      "source": "https://github.com/aswath0001/Bus-ticket-reservation-system-"
     },
     {
       "id":3,
