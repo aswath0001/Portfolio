@@ -19,11 +19,11 @@
     },
     {
       "id":3,
-      "title": "Project C",
+      "title": "Inquiro",
       "imageSrc": "project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "source": "https://www.github.com"
+      "description": "Inquiro is a full-stack system for submitting and managing enquiries.",
+      "skills": ["React", "Java", "SQL"],
+      "source": "https://github.com/aswath0001/Inquiro"
     }
 
   ]
