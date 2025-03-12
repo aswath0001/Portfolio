@@ -15,7 +15,8 @@
       "imageSrc": "project.png",
       "description": "DigiFolio is a sleek, modern template built with React for portfolios and digital agencies.",
       "skills": ["React"],
-      "source": "https://digifolio0001.netlify.app/"
+      "source":"https://github.com/aswath0001/DigiFolio-",
+      "demo": "https://digifolio0001.netlify.app/"
     },
     {
       "id":3,
