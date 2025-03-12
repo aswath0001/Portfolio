@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Styles from "./Hero.module.css";
 import { getImageUrl } from '../../utils';
@@ -11,7 +10,13 @@ export const Hero = () => {
         <p className={Styles.description}>
           I'm a full-stack developer with 6 months of experience. Reach out if you'd like to learn more!
         </p>
-        <a href="#contact" className={Styles.contactBtn}>Contact me</a> {/* Updated link */}
+        <a 
+          href="/ASWATH R.S. - FULL STACK DEVELOPER.pdf" 
+          download="ASWATH R.S. - FULL STACK DEVELOPER.pdf"
+          className={Styles.contactBtn}
+        >
+          Download Resume
+        </a>
       </div>
       <img
         src={getImageUrl("aswath circle.png")}

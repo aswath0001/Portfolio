@@ -11,18 +11,18 @@
     },
     {
       "id":2,
-      "title": "TripTix",
+      "title": "DigiFolio",
       "imageSrc": "project.png",
-      "description": "TripTix is a platform that manages bus ticket bookings with a custom Java backend and SQL.",
-      "skills": ["java","SQL"],
-      "source": "https://github.com/aswath0001/Bus-ticket-reservation-system-"
+      "description": "DigiFolio is a sleek, modern template built with React for portfolios and digital agencies.",
+      "skills": ["React"],
+      "source": "https://digifolio0001.netlify.app/"
     },
     {
       "id":3,
       "title": "Inquiro",
       "imageSrc": "project.png",
       "description": "Inquiro is a full-stack system for submitting and managing enquiries.",
-      "skills": ["React", "Java", "SQL"],
+      "skills": ["React", "Java","Spring boot", "SQL"],
       "source": "https://github.com/aswath0001/Inquiro"
     }
 
