@@ -3,7 +3,7 @@
     {
       "id":1,
       "title": "Zentry",
-      "imageSrc": "project.png",
+      "imageSrc": "zentry.png",
       "description": "Zentry is a landing page for a gaming website with modern graphics and Animations",
       "skills": ["React","TailwindCSS"],
       "source": "https://github.com/aswath0001/Zentry",
@@ -12,7 +12,7 @@
     {
       "id":2,
       "title": "Xora",
-      "imageSrc": "project.png",
+      "imageSrc": "zora.png",
       "description": "Xora is a Landing page for video editing AI app with a modern UI and responsiveness",
       "skills": ["React","TailwindCSS"],
       "source":"https://github.com/aswath0001/XORA",
