@@ -25,6 +25,32 @@
       "description": "Inquiro is a full-stack enquiry management system for submitting and managing enquiries.",
       "skills": ["React", "Java","Spring boot", "SQL"],
       "source": "https://github.com/aswath0001/Inquiro"
+    },
+    {
+      "id":4,
+      "title": "CosmoVision",
+      "imageSrc": "COSMOVISION.png",
+      "description": "CosmoVision is a web application that fetches and displays daily images from NASA's (APOD) API.",
+      "skills": ["React","TailwindCSS"],
+      "source": "https://github.com/aswath0001/CosmoVision",
+      "demo": "https://cosmovision0001.netlify.app/"
+    },
+    {
+      "id":5,
+      "title": "Digifolio",
+      "imageSrc": "project.png",
+      "description": "DigiFolio is a sleek and modern website template for showcasing your personal portfolio or cutting edge digital marketing site .",
+      "skills": ["React","CSS"],
+      "source":"https://github.com/aswath0001/DigiFolio-",
+      "demo": "https://digifolio0001.netlify.app/"
+    },
+    {
+      "id":6,
+      "title": "TripTix",
+      "imageSrc": "project.png",
+      "description": "TripTix is a database project for a bus ticket reservation system which allows users to book tickets based on their age and gender.",
+      "skills": [ "Java JDBC", "SQL"],
+      "source": "https://github.com/aswath0001/TripTix"
     }
 
   ]
