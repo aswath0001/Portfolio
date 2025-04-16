@@ -2,27 +2,27 @@
 [
     {
       "id":1,
-      "title": "CosmoVision",
-      "imageSrc": "COSMOVISION.png",
-      "description": "CosmoVision is a project that fetches and displays daily space images from NASA's APOD API online.",
-      "skills": ["React"],
-      "source": "https://github.com/aswath0001/CosmoVision",
-      "demo": "https://cosmovision0001.netlify.app/"
+      "title": "Zentry",
+      "imageSrc": "project.png",
+      "description": "Zentry is a landing page for a gaming website with modern graphics and Animations",
+      "skills": ["React","TailwindCSS"],
+      "source": "https://github.com/aswath0001/Zentry",
+      "demo": "https://zentry0001.netlify.app/"
     },
     {
       "id":2,
-      "title": "DigiFolio",
+      "title": "Xora",
       "imageSrc": "project.png",
-      "description": "DigiFolio is a sleek, modern template built with React for portfolios and digital agencies.",
-      "skills": ["React"],
-      "source":"https://github.com/aswath0001/DigiFolio-",
-      "demo": "https://digifolio0001.netlify.app/"
+      "description": "Xora is a Landing page for video editing AI app with a modern UI and responsiveness",
+      "skills": ["React","TailwindCSS"],
+      "source":"https://github.com/aswath0001/XORA",
+      "demo": "https://xora001.netlify.app/"
     },
     {
       "id":3,
       "title": "Inquiro",
       "imageSrc": "project.png",
-      "description": "Inquiro is a full-stack system for submitting and managing enquiries.",
+      "description": "Inquiro is a full-stack enquiry management system for submitting and managing enquiries.",
       "skills": ["React", "Java","Spring boot", "SQL"],
       "source": "https://github.com/aswath0001/Inquiro"
     }
