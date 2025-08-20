@@ -1,40 +1,43 @@
 
 [
-    {
-      "id":1,
-      "title": "Zentry",
-      "imageSrc": "zentry.png",
-      "description": "Zentry is a landing page for a gaming website with modern graphics and Animations",
-      "skills": ["React","TailwindCSS"],
-      "source": "https://github.com/aswath0001/Zentry",
-      "demo": "https://zentry0001.netlify.app/"
-    },
-    {
-      "id":2,
-      "title": "Xora",
-      "imageSrc": "zora.png",
-      "description": "Xora is a Landing page for video editing AI app with a modern UI and responsiveness",
-      "skills": ["React","TailwindCSS"],
-      "source":"https://github.com/aswath0001/XORA",
-      "demo": "https://xora001.netlify.app/"
-    },
+   {
+"id":1,
+      "title": "Expense Tracker",
+      "imageSrc": "project.png",
+      "description": "Expense Tracker is a financial management application for tracking expenses",
+      "skills": ["Java","SQL","Spring boot"],
+      "source": "https://github.com/aswath0001/Expense-Tracker"
+     
+   },
     {
       "id":3,
+      "title": "EMS",
+      "imageSrc": "project.png",
+      
+  "description": "EMS is a Employee management System that performs CURD operation.",
+      "skills": ["React","TailwindCSS","Java","SQL","Spring boot"],
+      "source":"https://github.com/aswath0001/EMS"
+      
+    },
+     {
+      "id":3,
+      "title": "CAS",
+      "imageSrc": "project.png",
+      
+  "description": "CAS is Course allocation application with JWT authentication for courses and students.",
+      "skills": ["Java","SQL","Spring boot","JWT"],
+      "source":"https://github.com/aswath0001/EMS"
+      
+    },
+    {
+      "id":4,
       "title": "Inquiro",
       "imageSrc": "project.png",
       "description": "Inquiro is a full-stack enquiry management system for submitting and managing enquiries.",
       "skills": ["React", "Java","Spring boot", "SQL"],
       "source": "https://github.com/aswath0001/Inquiro"
     },
-    {
-      "id":4,
-      "title": "CosmoVision",
-      "imageSrc": "COSMOVISION.png",
-      "description": "CosmoVision is a web application that fetches and displays daily images from NASA's (APOD) API.",
-      "skills": ["React","TailwindCSS"],
-      "source": "https://github.com/aswath0001/CosmoVision",
-      "demo": "https://cosmovision0001.netlify.app/"
-    },
+    
     {
       "id":5,
       "title": "Digifolio",
