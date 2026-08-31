@@ -1,5 +1,12 @@
 
-[
+[{
+      "role": "Software Engineer",
+      "organisation": "T Square technologies",
+      "startDate": "Aug, 2026",
+      "endDate": "Present",
+      "experiences": ["Working on a repair management system"],
+      "imageSrc": "besant.png"
+    },
     {
       "role": "Frontend Developer intern",
       "organisation": "Brevia Studio",
